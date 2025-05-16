@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const forms = [
+      "https://docs.google.com/forms/d/e/1FAIpQLSe4F6GMmwvSh2GGkeLcQfrNrrA-mIfbidOC1upy4NwQ-CdnPQ/viewform?usp=dialog",
+      "https://forms.gle/Ck27LVhjR4kZUgRYA",
+      "https://forms.gle/yufnQSYS1PjFFyMp9",
+      "https://forms.gle/bM8nfdVaM1s7bMQz9",
+      "https://forms.gle/ZYcM8VVuvsVzH6kW9",
+      "https://forms.gle/SEKdTAbFUjagUU7u6"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * forms.length);
+    window.location.href = forms[randomIndex];
+  </script>
+</head>
+<body>
+  <p>Redirecting you to a random Google Form...</p>
+</body>
+</html>
